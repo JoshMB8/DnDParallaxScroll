@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: White;
+}
+
+.logo {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1A0634;
+    background-size: cover;
+    min-height: 100%;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+.book_set, .starterset, .phb, .dmg, .mm, .expansions {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1A0634;
+    background-size: cover;
+    min-height: 100%;
+    opacity: 0.6;
+    background-attachment: fixed;
+}
+
+.logo {
+    background-image: url("./images/logo.png");
+    min-height: 100%;
+    background-size: auto;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: white;
+    text-align:center
+}
+
+.textSection {
+    background-color:#1A0634;
+    padding:50px 80px;
+}
+
+.book_set {
+    background-image: url("./images/book_set.jpg");
+}
+
+.starterset {
+    background-image: url("./images/starterset.jpg");
+}
+
+.phb {
+    background-image: url("./images/phb.jpg");
+}
+
+.dmg {
+    background-image: url("./images/dmg.jpg");
+}
+
+.mm {
+    background-image: url("./images/mm.jpg");
+}
+
+.expansions{
+    background-image: url("./images/dnd.png");
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    background-color: #000000;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+p.ref {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    width: 60%;
+    background-color: grey;
+    color: black;
+    opacity: 0.9;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .book_set, .books, .phb, .dmg, .mm, .expansions, .logo {
+        background-attachment: scroll;
+    }
+}
